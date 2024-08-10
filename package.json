@@ -1,0 +1,36 @@
+{
+  "name": "fatima",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify/vue": "^4.1.2",
+    "@vuepic/vue-datepicker": "^9.0.1",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "object-to-formdata": "^4.5.1",
+    "pinia": "^2.1.7",
+    "tailwindcss": "^3.4.6",
+    "vue": "^3.4.31",
+    "vue-location-picker": "^1.0.1",
+    "vue-router": "^4.4.0",
+    "vue-toast-notification": "^3.1.2",
+    "vue3-carousel": "^0.3.3"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "material-design-icons-iconfont": "^6.7.0",
+    "sass": "^1.77.8",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-tsc": "^2.0.24",
+    "vuetify": "^3.6.14"
+  }
+}
